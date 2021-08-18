@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
+import GameButton from "./components/GameButton/GameButton";
+import Game from "./components/Game/Game";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/*<App />*/}
+    {/*<GameButton num={1} color={'red'} colorName={"RED"}></GameButton>*/}
+    <Game></Game>
   </React.StrictMode>,
   document.getElementById('root')
 );
